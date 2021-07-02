@@ -232,6 +232,31 @@ void main() {
 ......................................................................................................
 11)
 
+void main() {
+   
+  var salario = 2000;
+  var acrescimo = 0.4;
+  var dias_ano = 360;
+  var anos_de_trabalho = 0;
+  var meses_trabalhando = 5;
+  
+  var calculo = (anos_de_trabalho * dias_ano);
+  var conta2 = (calculo >= 360);
+  var conta3 = (anos_de_trabalho < 360);
+  var calculo2 = (meses_trabalhando * dias_ano);
+  var conta4 = (calculo2 < 360);
+  
+  var total = (salario + acrescimo);
+  var junto = (salario * 1.2);
+ 
+  if(conta2){
+    print ("Você ganhou um acrescimo seu salario é de:" + " " + "$junto");
+  }else if(conta3){
+    print ("Você não ganhou acrescimo pois tem menos de 1 ano de empresa");
+  }
+  
+ }
+
   
   
  
