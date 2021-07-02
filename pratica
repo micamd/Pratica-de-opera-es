@@ -1,20 +1,15 @@
 1)
 
- void main() {
+void main() {
+
+  print(operadorTernario(-10));
   
-  List<String> numeros = ["10", "-5", "-10", "5"];
-  
-  var positivo = ("0" + "$numeros");
-  var negativo = ("0" + "$numeros");
-    
-   if(positivo){
-    print ("Positivo");
-  }else if (negativo){
-    print("Negativo");
-  }else{
-    print("Não é negativo nem positivo");
-  }
 }
+    String operadorTernario(num numero){
+    return (numero > 0)
+      ? "Este número $numero é positivo !!!"
+      : "Este número $numero é negativo!!!";
+  }
 
 ...............................................................
 2)
