@@ -1,0 +1,237 @@
+1)
+
+ void main() {
+  
+  List<String> numeros = ["10", "-5", "-10", "5"];
+  
+  var positivo = ("0" + "$numeros");
+  var negativo = ("0" + "$numeros");
+    
+   if(positivo){
+    print ("Positivo");
+  }else if (negativo){
+    print("Negativo");
+  }else{
+    print("Não é negativo nem positivo");
+  }
+}
+
+...............................................................
+2)
+
+void main() {
+  
+  const int primeiro_valor = 14;
+  const int segundo_valor = 10;
+  const bool e_maior = primeiro_valor > segundo_valor;
+  const bool e_menor = primeiro_valor < segundo_valor;
+  const bool sao_iguais = primeiro_valor == segundo_valor;
+  
+  
+  if(e_maior){
+    print ("O primeiro valor é maior que o segundo");
+  }else if (sao_iguais){
+    print("Os numeros são iguais");
+  }else if (e_menor){
+    print("O primeiro valor é menor que o segundo");
+  }else{
+    print("O segundo valor é maior que o primero ");
+  }
+
+}
+
+......................................................................
+3)
+
+void main() {
+  
+  double a = 2;
+  double b = 4;
+  double c = 5;
+  
+  print("Valores a serem calculados:" " " + "$a" + "," + "$b" + "," + "$c");
+  
+  print ("Primeiro calculo:" + " " + "a+b*c"); 
+  double primeiro_calculo1 = (a+b*c);
+  print ("Resultado =" + " " + "$primeiro_calculo1" );
+  
+  print ("Segundo calculo:" + " " + "b/a*c"); 
+  double segundo_calculo2 =  (b/a*c);
+  print ("Resultado =" + " " + "$segundo_calculo2" );
+  
+  print ("Os resultados são iguais");
+  print(primeiro_calculo1 == segundo_calculo2);
+}
+  
+
+.....................................................................................
+4)
+
+void main() {
+ 
+  double nota1 = 2.0;
+  double nota2 = 3.0;
+  
+  double media = (nota1+nota2);
+  
+  if(media < 6){
+    print("Reprovado");
+  }else if(media == 6){
+    print("Aprovado");
+  }else if(media > 6){
+    print("Aprovado com louvor");
+  }
+   
+}
+
+....................................................................................
+5)
+
+ void main() {
+ 
+  double nota1 = 2.0;
+  double nota2 = 2.0;
+  double nota3 = 0.0;
+  
+  double media = (nota1+nota2+nota3);
+  
+  if(media < 6){
+    print("Reprovado");
+  }else if(media == 7){
+    print("Exame");
+  }else if(media == 6){
+    print("Exame");
+  }else if(media > 7){
+    print("Aprovado com louvor");
+  }
+   
+}
+
+.............................................................................
+6)
+
+void main() {
+ 
+  double nota1 = 0.0;
+  double nota2 = 0.6;
+  double nota3 = 9.0;
+  double nota4 = 0.0;
+  
+  var conceitoA = ("Conceito A");
+  var conceitoB = ("Conceito B");
+  var conceitoC = ("conceito C");
+  var conceitoF = ("Você tirou F");
+  
+  
+  double media = (nota1+nota2+nota3+nota4);
+  
+  if(media < 7){
+    print("Reprovado!" + " " + '$conceitoF');
+  }else if(media >= 7 && media <= 7.9){
+    print("Aprovado!" + " " + '$conceitoC');
+  }else if(media >= 8 && media <= 8.9){
+    print("Aprovado!" + " " + '$conceitoB');
+  }else if(media >= 9 && media <= 10){
+    print("Aprovado!" + " " + '$conceitoA');
+  }
+}
+
+  
+.....................................................................................
+7)
+
+void main() {
+ 
+  double peso = 30;
+  double altura = 1.42;
+  
+  double imc = (peso/altura*altura);
+  
+  if(imc < 16){
+    print('Magreza grave');
+  }else if(imc >= 16 && imc <= 17){
+    print('Magreza moderada');
+  }else if(imc >= 17 && imc <= 18.5){
+    print('Magreza leve');
+  }else if(imc >= 18.5 && imc <= 25){
+    print('Saudável');
+  }else if(imc >= 25 && imc <= 30){
+    print('Sobrebeso');
+  }else if(imc >= 30 && imc <= 35){
+    print('Obesidade grau I');
+  }else if(imc >= 35 && imc <= 40){
+    print('Obesidade grau II (Severa)');
+  }else if(imc >= 40){
+    print('Obesidade grau III (Mórbida)');
+  }
+}
+
+............................................................................
+8)
+
+void main() {
+  
+  var saldo_da_conta = 600;
+  var saque = 800;
+  
+  var calculo = (saldo_da_conta - saque);
+  var resultado1 = (saldo_da_conta > saque);
+  var resultado2 = (saldo_da_conta < saque);
+  var resultado3 = (saldo_da_conta == saque);
+  
+  
+   if(resultado1){
+    print ("Saque efetuado com sucesso!" + " " + "Agora você possui somente:" + " " + "$calculo");
+  }else if (resultado2){
+    print("Saldo indisponivel!" + " " + "Você possui apenas:" + " " + "$saldo_da_conta");
+  }else if (resultado3){
+    print ("Saque efetuado com sucesso!" + " " + "Agora você possui somente:" + " " + "$calculo");
+  }
+  
+} 
+
+..........................................................................................................
+9)
+
+ void main() {
+  
+  var idade = 22;
+  
+  if(idade >= 0 && idade <=12){
+    print('Categoria criança');
+  }else if(idade >= 13 && idade <= 21){
+    print('Categoria Jovem');
+  }else if(idade >= 22 && idade <= 59){
+    print('Categoria Adulta');
+  }else if (idade > 60){
+    print('Categoria Terceira idade');
+  }
+  
+} 
+
+......................................................................................................
+10)
+
+void main() {
+  
+  var peso = 70;
+  
+  if(peso < 60){
+    print('Tamanho P');
+  }else if(peso >= 61 && peso <= 74){
+    print('Tamanho M');
+  }else if(peso >= 75 && peso <= 85){
+    print('Tamanho G');
+  }else if (peso > 86){
+    print('Tamanho GG');
+  }
+  
+} 
+
+
+......................................................................................................
+11)
+
+  
+  
+ 
