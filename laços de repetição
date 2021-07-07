@@ -68,7 +68,7 @@ void main() {
 5) 
 
 void main() {
-  
+
   double media = 0;
 
   var numeros = [5.72, 7.80, 6.45, 9.94, 3.32, 1.67, 9.65, 9.43, 8.10, 7.05];
@@ -85,9 +85,14 @@ void main() {
   print (numeros);
   print ("");
   print ("MÉDIA DA TURMA É DE:" + " " + '${media.toStringAsFixed(2)}');
+  print (" ");
+  
+  for (var i = 0; i < numeros.length; i++) {
+  print("Media aluno:" + " " + '${numeros[i]}');
 
+  }
+  
 }
-
 .............................................................
 6)
 
