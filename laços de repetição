@@ -1,0 +1,183 @@
+1)
+void main() {    
+ 
+  int valor = 0;
+  
+  for(int i = 0; i<=100; i++){
+    print('Valores:' + i.toString());
+    
+   }
+}
+............................................................
+2)
+ 
+void main() {
+  
+  var numeros = [2,3,4,5,7,9,34,56,24,12];
+  
+   
+  print ("LISTA DOS NÚMEROS");
+  print (numeros); 
+  
+
+  print ("");
+  
+  int numeros = 0;
+  
+  for(int i = 100; i<= 100; i = numeros; i++){
+  
+  print ("O MAIOR NÚMERO É O:" + " " + i.toString());
+  
+    }
+}
+      
+..........................................................
+3)
+
+void main() {
+ 
+  int num1 = 24;
+  int num2 = 5;
+  
+  var calculo = (num1*num2);
+  
+  while(calculo <= 1200){
+    print(calculo);
+    calculo+=200;
+  }
+  
+}
+
+...........................................................
+4)
+
+void main() {
+ 
+  for(int i = 0; i<=10; i+=2)
+   {
+    print(i);
+  }
+  
+}
+
+............................................................
+5)
+
+ var medias = [2.2, 3.3, 9, 10, 4.5, 8.9, 10, 4.3, 9.8, 7.6];
+  
+  print ("LISTA DAS MÉDIAS");
+  print (medias); 
+  
+
+  print ("");
+  
+  for(int i = 1; i<= 10; i++){
+    print('NOTA:' + medias.toString());
+    
+    
+}
+
+.............................................................
+6)
+
+void main() {
+
+  for(int i = 0; i<=50; i+=5)
+   {
+    print(i);
+  }
+  
+}
+ 
+.............................................................
+7)
+
+void main() {
+
+  double media = 0;
+  double maior = 2.15;
+  double menor = 1.50;
+  
+  var numeros = [1.72, 1.80, 1.45, 1.94, 1.32, 1.67, 1.65, 1.43, 2.10, 2.05, 1.87, 1.82, 1.83, 1.75, 1.69];
+  
+  
+  for (double num in numeros){
+    media += num;
+    maior == num;
+    menor == num;
+  }
+  
+  media = media/15;
+  maior = maior=2.10;
+  menor = menor=1.32;
+  
+  print ("ALTURA DOS JOGADORES");
+  print (numeros);
+  print ("");
+  print ("MÉDIA DA ALTURA DOS JOGADORES É:" + " " + '${media.toStringAsFixed(2)}');
+  print ("A MAIOR ALTURA É DE:" + " " + '${maior.toStringAsFixed(2)}');
+  print ("A MENOR ALTURA É DE:" + " " + '${menor.toStringAsFixed(2)}');
+}
+ 
+
+................................................................................................
+8)
+
+void main() {
+
+  int soma = 2;
+  String result ='1';
+  
+  print ("NÚMERO SOMADO:" + " " + "$soma");
+  
+  for(int i = 1; i <= 3; i++){
+    result += ' ${i *1}';
+    soma = soma + i *2;
+    print('NÚMERO * 2 = $soma');
+  }
+}
+
+..................................................................................................
+9)
+
+void main() {
+
+ Map<int, String> candidato = new Map();
+
+  candidato[1] = 'Chaves';
+  candidato[2] = 'Nhonho';
+  candidato[3] = 'Quico';
+  candidato[4] = 'Seu madruga';
+  candidato[5] = 'Girafales';
+  candidato[6] = 'Jaiminho';
+  candidato[7] = 'Seu barriga';
+  
+  print ("CANDIDATOS");
+  print(candidato);
+  
+ Map<int, String> peso = new Map();
+
+  peso[1] = '90';
+  peso[2] = '95';
+  peso[3] = '70';
+  peso[4] = '45';
+  peso[5] = '80';
+  peso[6] = '35';
+  peso[7] = '100';
+  
+  print ("PESO");
+  print(peso);
+  
+  var pesado1 = (candidato[1]);
+  var pesado2 = (candidato[2]);
+  var pesado3 = (candidato[7]);
+  
+  print(" ");
+  print("CATEGORIA PESO PESADO, CANDIDATOS ACEITOS:" + " " + "$pesado1" + "," + "$pesado2" + "," + "$pesado3");
+  
+}
+  
+.....................................................................................................................
+10)
+
+
