@@ -9,26 +9,30 @@ void main() {
    }
 }
 ............................................................
-2) não terminado ainda até o dia 07 durante a tarde estará atualizado
- 
+2) Sora fiz o cod porem não por que ele esta dando o maior como 9....
+
 void main() {
-  
+
   var numeros = [2,3,4,5,7,9,34,56,24,12];
+  var maior = 0;
   
-   
   print ("LISTA DOS NÚMEROS");
   print (numeros); 
   
 
   print ("");
   
-  int numeros = 0;
-  
-  for(int i = 100; i<= 100; i = numeros; i++){
-  
-  print ("O MAIOR NÚMERO É O:" + " " + i.toString());
-  
+  for (var i = 0; i < numeros.length; i++) {
+  print("numero da lista:" + " " + '${numeros[i]}');
+
+     maior = i;
+    
+    if(i >= maior){
+      
     }
+  }
+  
+  print('Maior é o:' + " " + maior.toString());
 }
       
 ..........................................................
@@ -61,20 +65,27 @@ void main() {
 }
 
 ............................................................
-5) não terminado ainda até o dia 07 durante a tarde estará atualizado
+5) 
 
- var medias = [2.2, 3.3, 9, 10, 4.5, 8.9, 10, 4.3, 9.8, 7.6];
+void main() {
   
-  print ("LISTA DAS MÉDIAS");
-  print (medias); 
-  
+  double media = 0;
 
+  var numeros = [5.72, 7.80, 6.45, 9.94, 3.32, 1.67, 9.65, 9.43, 8.10, 7.05];
+  
+  
+  for (double num in numeros){
+    media += num;
+
+  }
+  
+  media = media/10;
+  
+  print ("NOTAS DOS ALUNOS");
+  print (numeros);
   print ("");
-  
-  for(int i = 1; i<= 10; i++){
-    print('NOTA:' + medias.toString());
-    
-    
+  print ("MÉDIA DA TURMA É DE:" + " " + '${media.toStringAsFixed(2)}');
+
 }
 
 .............................................................
@@ -178,13 +189,13 @@ void main() {
 }
   
 .....................................................................................................................
-10) não terminado ainda até o dia 07 durante a tarde estará atualizado
+10) 
 
 void main() {
   
-  double multaA = 14;
-  double multaB = 7;
-  double multaC = 21;
+  double multaA = 21;
+  double multaB = 14;
+  double multaC = 22;
   
   print("Pontos na carteira:" " " + "$multaA");
   
@@ -198,10 +209,38 @@ void main() {
   
  if(multa1 <= 7){
     print("$valorA");
-  }else if(multa1 >= 13){
+  }else if(multa1 <= 20){
     print("$valorB");
   }else if(multa1 >= 21){
     print("$valorC");
   }
+  
+   print("Pontos na carteira:" " " + "$multaB");
+  
+   if(multa2 <= 7){
+    print("$valorA");
+  }else if(multa2 <= 20){
+    print("$valorB");
+  }else if(multa2 > 21){
+    print("$valorC");
+  }
+  
+  print("Pontos na carteira:" " " + "$multaC");
+  
+   if(multa3 <= 7){
+    print("$valorA");
+  }else if(multa3 <= 20){
+    print("$valorB");
+  }else if(multa3 >= 21){
+    print("$valorC");
+  }
+  
+  var valor_multas1 = (500.00);
+  var valor_multas2 = (700.00);
+  var valor_multas3 = (1001.00);
+  
+  var calculo = (valor_multas1+valor_multas2+valor_multas3);
+  print ("O detran recebe hoje:" + " " + "$calculo" + " " + "reais de multas");
 }
+
 
