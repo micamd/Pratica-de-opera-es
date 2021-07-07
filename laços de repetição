@@ -9,7 +9,7 @@ void main() {
    }
 }
 ............................................................
-2)
+2) não terminado ainda até o dia 07 durante a tarde estará atualizado
  
 void main() {
   
@@ -61,7 +61,7 @@ void main() {
 }
 
 ............................................................
-5)
+5) não terminado ainda até o dia 07 durante a tarde estará atualizado
 
  var medias = [2.2, 3.3, 9, 10, 4.5, 8.9, 10, 4.3, 9.8, 7.6];
   
@@ -178,6 +178,30 @@ void main() {
 }
   
 .....................................................................................................................
-10)
+10) não terminado ainda até o dia 07 durante a tarde estará atualizado
 
+void main() {
+  
+  double multaA = 14;
+  double multaB = 7;
+  double multaC = 21;
+  
+  print("Pontos na carteira:" " " + "$multaA");
+  
+  var valorA = ("O valor da sua multa é de: 500,00");
+  var valorB = ("O valor da sua multa pode variar entre: 501,00 á 1,000");
+  var valorC = ("O valor da sua multa é de: 1001,00");
+
+  var multa1 = (multaA);
+  var multa2 = (multaB);
+  var multa3 = (multaC);
+  
+ if(multa1 <= 7){
+    print("$valorA");
+  }else if(multa1 >= 13){
+    print("$valorB");
+  }else if(multa1 >= 21){
+    print("$valorC");
+  }
+}
 
