@@ -1,0 +1,136 @@
+1)
+
+import 'dart:math';
+
+  void main() {
+
+  List<int> lista =[18, 19];
+  
+  
+  print("MENOR NÚMERO DA LISTA: ${(lista.reduce(min))}");
+  
+}
+.............................................................
+2)
+
+ void main() {
+
+ 
+  int numero = 3;
+  
+  
+    for (int i = 2; i < numero; i++) {
+        if (numero % i == 0){
+      print ("Valor lógico Verdadeiro"); 
+   } else {
+      print("False");
+   } break;
+   }
+ }
+
+.............................................................
+3)
+
+void main() {
+
+ 
+   var numero = -10;
+
+   
+   if (numero >= 0 ){
+       print ('true');
+   } else if (numero <= 0 ){
+    print ('false');
+   }
+   
+ }
+
+..............................................................
+4)
+
+void main() {
+
+   var num1 = 3;
+   var num2 = 9;
+   var num3 = 8;
+   var num4 = 14;
+   var num5 = 26;
+   
+   var mais = (num1+num2+num3+num4+num5);
+   var divisao = (mais / 5);
+   var soma = (mais+divisao);
+   
+   print ("O valor da média aritmédica é:" + " " + "$soma" );
+ }
+
+...............................................................
+5)
+
+ void main() {
+
+   var num1 = 3;
+   var num2 = 4;
+   
+   var calculo = (num1 + num2);
+   
+   print (calculo);
+ }
+
+..............................................................
+6)
+
+void main() {
+
+  var idade = 20;
+  
+  if(idade >= 5 && idade <=7){
+    print('Você tem:'+ " " + '$idade' + " " + "Anos" + " " + 'está na Categoria Infantil A');
+  }else if(idade >= 8 && idade <= 10){
+    print('Você tem:'+ " " + '$idade' + " " + "Anos" + " " + 'está na Categoria Infantil B');
+  }else if(idade >= 11 && idade <= 13){
+    print('Você tem:'+ " " + '$idade' + " " + "Anos" + " " + 'está na Categoria Juvenil A');
+  }else if (idade >= 14 && idade <= 17){
+    print('Você tem:'+ " " + '$idade' + " " + "Anos" + " " + 'está na Categoria Juvenil B');
+  }else if (idade >= 18){
+    print('Você tem:'+ " " + '$idade' + " " + "Anos" + " " + 'está na Categoria Adulto');
+ }
+ }
+
+...............................................................
+7)
+
+void main() {
+
+ int numero = 2;
+   
+      if ((numero  % 2) == 0){  
+         print("1");
+      }else{
+         print("0");
+      }
+ }
+
+...............................................................
+8)
+
+ void main() {
+
+ 
+   var num1 = 3;
+   var num2 = 4;
+   
+   var calculo = (num1 + num2);
+   var calculo2 = (num1 * num2*num2);
+   var calculo3 = (num1 * num1);
+   var calculo4 = (calculo * 6);
+   var calculo5 = (calculo * 3);
+   var calculo6 = (num1 |0|);
+   
+   print (calculo);
+   print (calculo2);
+   print (calculo3);
+   print (calculo4);
+   print (calculo5);
+ }
+
+ 
